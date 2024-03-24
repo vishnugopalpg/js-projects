@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: rgb(25, 25, 25);
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+button {
+    font-size: 20px;
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+#score {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#moves {
+    margin: 0 auto;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    font-size: 20px;
+}
+#result {
+    margin: 0 auto;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    font-size: 50px;
+}
+
+
+
+.move-icon {
+    height: 50px;
+}
+
+.btn-move {
+    background-color: transparent;
+    border: 3px solid white;
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    margin-right: 10px;
+}
+
+.active {
+    border: 3px solid red;
+}
